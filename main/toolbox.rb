@@ -15,6 +15,18 @@ require 'textmate_grammar'
 @pipe                 = Pattern.new(/\||\?\?!/)
 @tilda                = Pattern.new(/~|\?\?-/)
 
+@universal_character         = Pattern.new(/\\u[0-9a-fA-F]{4}/).or(/\\U[0-9a-fA-F]{8}/)
+
+
+def universal_character()
+    return @universal_character
+end
+
+def identifier
+    first_character      = Pattern.new(/[a-zA-Z_]/).or(@universal_character)
+    subsequent_character = Pattern.new(/[a-zA-Z0-9_]/).or(@universal_character)
+    first_character.then(zeroOrMoreOf(subsequent_character))
+end
 
 def semicolon()
     return Grammar.import("../imports/cpp-textmate-grammer/source/shared_patterns/basic_punctuation.rb")[:semicolon]

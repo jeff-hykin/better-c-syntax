@@ -1,0 +1,2 @@
+- integrate and clean up the token helper
+- add testing commands and javascript

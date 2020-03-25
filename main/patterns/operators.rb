@@ -8,6 +8,10 @@ grammar.external_repos = [
 
 # what will be exported by this
 grammar.exports = [
+    :operators
 ]
 
-
+grammar[:operators] = Pattern.new(
+    match: @tokens.that(:isOperator, :isSymbol, not(:isTernaryOperator)),
+    tag_as: "keyword.operator",
+)

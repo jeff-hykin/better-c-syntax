@@ -18,14 +18,19 @@ grammar = Grammar.new(
 # imports
 #
 grammar.import("./patterns/comments.rb")
-grammar.import("./patterns/char_and_string.rb")
+grammar.import("./patterns/literals.rb")
+    grammar.import("./patterns/numbers.rb")
+    grammar.import("./patterns/char_and_string.rb")
+grammar.import("./patterns/preprocessor.rb")
 
 #
 # contexts
 #
 grammar[:$initial_context] = [
-    # comments
+    # [done] comments
+    :comments,
     # preprocessor
+    :preprocessor_context,
     # literals
         # true false NULL
         # numbers
