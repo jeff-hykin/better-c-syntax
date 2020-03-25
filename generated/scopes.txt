@@ -1,0 +1,5 @@
+comment.block.c
+constant.character.escape.c
+punctuation.definition.comment.begin.c
+punctuation.definition.comment.end.c
+punctuation.definition.string.c
