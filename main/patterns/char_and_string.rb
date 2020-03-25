@@ -9,6 +9,14 @@ grammar.exports = [
     :string
 ]
 
+# content
+    # double quotes
+        # simple escapes
+        # complex escapes
+    # single quotes
+        # escapes
+    # raw? string
+
 grammar[:string] =  PatternRange.new(
     start_pattern: Pattern.new(
         match: /"/,
@@ -16,7 +24,7 @@ grammar[:string] =  PatternRange.new(
         reference: "string_start"
     ),
     end_pattern: Pattern.new(
-        match: matchResultOf("string_start"),
+        match: /"/,
         tag_as: "punctuation.definition.string"
     ),
     includes: [

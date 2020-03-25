@@ -247,7 +247,7 @@ tokens = [
 ]
 
 
-@c_tokens = TokenHelper.new tokens, for_each_token: ->(each) do
+@tokens = TokenHelper.new tokens, for_each_token: ->(each) do
     # isSymbol, isWordish
     if each[:representation] =~ /[a-zA-Z0-9_]/
         each[:isWordish] = true

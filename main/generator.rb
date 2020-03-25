@@ -16,17 +16,37 @@ grammar = Grammar.new(
 
 # 
 # imports
-# 
-grammar.import("./patterns/strings.rb")
-grammar.import("../imports/cpp-textmate-grammer/source/shared_patterns/inline_comment.rb")
-grammar.import("../imports/cpp-textmate-grammer/source/shared_patterns/std_space.rb")
-
+#
+grammar.import("./patterns/comments.rb")
+grammar.import("./patterns/char_and_string.rb")
 
 #
 # contexts
 #
 grammar[:$initial_context] = [
-    :string
+    # comments
+    # preprocessor
+    # literals
+        # true false NULL
+        # numbers
+        # char
+        # string
+    # basic types
+    # control flow
+    # basic punctuation
+        # ;
+        # ,
+        # ()
+        # {}
+        # []
+        # .
+        # ->
+        # ::
+    # operators
+    # function call
+    # misc keywords
+        # namespace
+        # typedef
 ]
 
 
