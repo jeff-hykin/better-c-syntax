@@ -1,3 +1,6 @@
 [submodule "imports/cpp-textmate-grammer"]
 	path = imports/cpp-textmate-grammer
 	url = https://github.com/jeff-hykin/cpp-textmate-grammer
+[submodule "imports/cpp-textmate-grammar"]
+	path = imports/cpp-textmate-grammar
+	url = https://github.com/jeff-hykin/cpp-textmate-grammar
