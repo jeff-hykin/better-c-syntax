@@ -11,5 +11,5 @@ grammar.exports = [
     :inline_comment,
 ]
 
-grammar[:comment] = Grammar.import("../../imports/cpp-textmate-grammer/source/languages/cpp/lib/inline_comment.rb")[:inline_comment]
+grammar[:comment] = Grammar.import("../../imports/cpp-textmate-grammar/source/languages/cpp/lib/inline_comment.rb")[:inline_comment]
 grammar[:inline_comment] = grammar[:comment]
