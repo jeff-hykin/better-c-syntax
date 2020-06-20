@@ -1,0 +1,27 @@
+{
+  "version": "",
+  "name": "C",
+  "scopeName": "source.c",
+  "fileTypes": [
+    "cc",
+    "C",
+    "h"
+  ],
+  "patterns": [
+    {
+      "include": "#types"
+    }
+  ],
+  "repository": {
+    "int": {
+      "match": "(?<!\\w)int(?!\\w)"
+    },
+    "types": {
+      "match": "(?>(?<__exception_group_8101__>(?:(?:(?<!\\w)void(?!\\w))|(?:(?<!\\w)int(?!\\w))))|(?:(\\b\\w+\\b)))(?(<__exception_group_8101__>)0(?<=1)|)",
+      "name": "storage.type.primitive.c storage.type.built-in.primitive.c"
+    },
+    "void": {
+      "match": "(?<!\\w)void(?!\\w)"
+    }
+  }
+}

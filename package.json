@@ -28,7 +28,7 @@
       {
         "language": "c",
         "scopeName": "source.c",
-        "path": "./generated/c.tmLanguage.json",
+        "path": "./generated/syntax.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.assembly.c": "asm"
         }
