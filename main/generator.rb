@@ -17,8 +17,8 @@ grammar = Grammar.new(
 # 
 # imports
 #
-grammar.import("./patterns/comments.rb")
-grammar[:comments] = grammar[:comments]
+# grammar.import()
+grammar[:comments] = Grammar.import("./patterns/comments.rb")[:comments]
 # grammar.import("./patterns/literals.rb")
 #     grammar.import("./patterns/numbers.rb")
 #     grammar.import("./patterns/char_and_string.rb")
