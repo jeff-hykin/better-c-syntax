@@ -247,15 +247,15 @@ tokens = [
 ]
 
 
-@tokens = TokenHelper.new tokens, for_each_token: ->(each) do
-    # isSymbol, isWordish
-    if each[:representation] =~ /[a-zA-Z0-9_]/
-        each[:isWordish] = true
-    else
-        each[:isSymbol] = true
-    end
-    # isWord
-    if each[:representation] =~ /\A[a-zA-Z_][a-zA-Z0-9_]*\z/
-        each[:isWord] = true
-    end
-end
+# @tokens = TokenHelper.new tokens, for_each_token: ->(each) do
+#     # isSymbol, isWordish
+#     if each[:representation] =~ /[a-zA-Z0-9_]/
+#         each[:isWordish] = true
+#     else
+#         each[:isSymbol] = true
+#     end
+#     # isWord
+#     if each[:representation] =~ /\A[a-zA-Z_][a-zA-Z0-9_]*\z/
+#         each[:isWord] = true
+#     end
+# end

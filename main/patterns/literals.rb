@@ -7,11 +7,11 @@ grammar.external_repos = [
 ]
 
 # what will be exported by this
-grammar.exports = [
-    :language_constants
-]
+# grammar.exports = [
+#     :language_constants
+# ]
 
-grammar[:language_constants] = Pattern.new(
-    match: variableBounds(@tokens.that(:isLiteral)),
-    tag_as: "constant.language.$match"
-)
+# grammar[:language_constants] = Pattern.new(
+#     match: variableBounds(@tokens.that(:isLiteral)),
+#     tag_as: "constant.language.$match"
+# )

@@ -18,19 +18,21 @@ grammar = Grammar.new(
 # imports
 #
 grammar.import("./patterns/comments.rb")
-grammar.import("./patterns/literals.rb")
-    grammar.import("./patterns/numbers.rb")
-    grammar.import("./patterns/char_and_string.rb")
-grammar.import("./patterns/preprocessor.rb")
+grammar[:comments] = grammar[:comments]
+# grammar.import("./patterns/literals.rb")
+#     grammar.import("./patterns/numbers.rb")
+#     grammar.import("./patterns/char_and_string.rb")
+# grammar.import("./patterns/preprocessor.rb")
+
 
 #
 # contexts
 #
 grammar[:$initial_context] = [
     # [done] comments
-    :comments,
+    # :comments,
     # preprocessor
-    :preprocessor_context,
+    # :preprocessor_context,
     # literals
         # true false NULL
         # numbers
@@ -52,7 +54,19 @@ grammar[:$initial_context] = [
     # misc keywords
         # namespace
         # typedef
+    
+    # :types # DEBUGGING
 ]
+
+
+# grammar[:void] = Pattern.new( keyword: "void", adjectives: [ :primitive, :type ])
+# grammar[:int]  = Pattern.new( keyword: "int" , adjectives: [ :primitive, :type ])
+# token_pattern = grammar.patternsThatAre( %(:primitive) )
+# grammar[:types] = Pattern.new(
+#     match: /\b\w+/,
+#     dont_match: token_pattern,
+#     tag_as: "storage.type.primitive storage.type.built-in.primitive"
+# )
 
 
 # 

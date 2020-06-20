@@ -29,11 +29,11 @@ def identifier
 end
 
 def semicolon()
-    return Grammar.import("../imports/cpp-textmate-grammer/source/shared_patterns/basic_punctuation.rb")[:semicolon]
+    return Grammar.import("../imports/cpp-textmate-grammar/source/shared_patterns/basic_punctuation.rb")[:semicolon]
 end
 
 def std_space()
-    return Grammar.import("../imports/cpp-textmate-grammer/source/shared_patterns/std_space.rb")[:std_space]
+    return Grammar.import("../imports/cpp-textmate-grammar/source/shared_patterns/std_space.rb")[:std_space]
 end
 
 def variableBounds(regex_pattern)
