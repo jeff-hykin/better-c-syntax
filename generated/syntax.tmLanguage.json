@@ -13,15 +13,74 @@
     }
   ],
   "repository": {
-    "int": {
-      "match": "(?<!\\w)int(?!\\w)"
+    "comment": {
+      "match": "(\\/\\*)((?:[^\\*]|(?:\\*)++[^\\/])*+((?:\\*)++\\/))",
+      "captures": {
+        "1": {
+          "name": "comment.block.c punctuation.definition.comment.begin.c"
+        },
+        "2": {
+          "name": "comment.block.c"
+        },
+        "3": {
+          "patterns": [
+            {
+              "match": "\\*\\/",
+              "name": "comment.block.c punctuation.definition.comment.end.c"
+            },
+            {
+              "match": "\\*",
+              "name": "comment.block.c"
+            }
+          ]
+        }
+      }
     },
-    "types": {
-      "match": "(?>(?<__exception_group_8101__>(?:(?:(?<!\\w)void(?!\\w))|(?:(?<!\\w)int(?!\\w))))|(?:(\\b\\w+\\b)))(?(<__exception_group_8101__>)0(?<=1)|)",
-      "name": "storage.type.primitive.c storage.type.built-in.primitive.c"
+    "comments": {
+      "match": "(\\/\\*)((?:[^\\*]|(?:\\*)++[^\\/])*+((?:\\*)++\\/))",
+      "captures": {
+        "1": {
+          "name": "comment.block.c punctuation.definition.comment.begin.c"
+        },
+        "2": {
+          "name": "comment.block.c"
+        },
+        "3": {
+          "patterns": [
+            {
+              "match": "\\*\\/",
+              "name": "comment.block.c punctuation.definition.comment.end.c"
+            },
+            {
+              "match": "\\*",
+              "name": "comment.block.c"
+            }
+          ]
+        }
+      }
     },
-    "void": {
-      "match": "(?<!\\w)void(?!\\w)"
+    "inline_comment": {
+      "match": "(\\/\\*)((?:[^\\*]|(?:\\*)++[^\\/])*+((?:\\*)++\\/))",
+      "captures": {
+        "1": {
+          "name": "comment.block.c punctuation.definition.comment.begin.c"
+        },
+        "2": {
+          "name": "comment.block.c"
+        },
+        "3": {
+          "patterns": [
+            {
+              "match": "\\*\\/",
+              "name": "comment.block.c punctuation.definition.comment.end.c"
+            },
+            {
+              "match": "\\*",
+              "name": "comment.block.c"
+            }
+          ]
+        }
+      }
     }
   }
 }
