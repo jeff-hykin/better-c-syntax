@@ -3,7 +3,7 @@
   "displayName": "Better C Syntax",
   "description": "A placeholder (which will later be the bleeding edge of C syntax)",
   "icon": "icon.png",
-  "version": "0.0.2",
+  "version": "1.13.0",
   "scripts": {
     "build": "bundle exec ruby main/generator.rb",
     "test": "",
