@@ -57,9 +57,9 @@
     "oniguruma": "^7.2.0",
     "prettyjson": "^1.2.1",
     "vscode-textmate": "^4.1.1",
-    "yargs": "^13.2.2"
+    "yargs": "^13.2.2",
+    "textmate-bailout": "^1.1.0"
   },
   "dependencies": {
-    "textmate-bailout": "^1.1.0"
   }
 }
