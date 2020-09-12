@@ -1,9 +1,9 @@
 {
-  "name": "better-syntax",
+  "name": "better-c-syntax",
   "displayName": "Better C Syntax",
   "description": "A placeholder (which will later be the bleeding edge of C syntax)",
   "icon": "icon.png",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "scripts": {
     "build": "bundle exec ruby main/generator.rb",
     "test": "",
