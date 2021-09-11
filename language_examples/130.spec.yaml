@@ -36,7 +36,7 @@
 - source: c
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'
@@ -60,7 +60,7 @@
 - source: c
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'

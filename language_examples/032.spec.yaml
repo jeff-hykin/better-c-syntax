@@ -8,7 +8,7 @@
   scopes:
     - keyword.operator
 - source: ' a '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'

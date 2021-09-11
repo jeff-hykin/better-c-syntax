@@ -207,7 +207,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '  determinant'
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: b
@@ -256,7 +256,7 @@
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: '      r1'
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: (
@@ -314,7 +314,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '      r2'
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: (
@@ -428,7 +428,7 @@
   scopes:
     - punctuation.section.parens.begin.bracket.round
 - source: determinant
-- source: ==
+- source: '=='
   scopes:
     - keyword.operator.comparison
 - source: '0'
@@ -443,11 +443,11 @@
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: '    r1 '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' r2 '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '-'
@@ -529,7 +529,7 @@
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: '    real'
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '-'
@@ -560,7 +560,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '    imag '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: sqrt

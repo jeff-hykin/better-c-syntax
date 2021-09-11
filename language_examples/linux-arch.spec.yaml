@@ -1128,7 +1128,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' pos '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -1191,7 +1191,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' size '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: scatterwalk_clamp
@@ -1225,7 +1225,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' left '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' size'
@@ -1239,7 +1239,7 @@
   scopes:
     - keyword.operator
 - source: 'mapped '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: scatterwalk_map
@@ -1270,7 +1270,7 @@
   scopes:
     - keyword.operator
 - source: 'src '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: (
@@ -1349,7 +1349,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' fill '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_BLOCK_SIZE '
@@ -1431,7 +1431,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: "\t\t\t\tpos "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -2164,7 +2164,7 @@
   scopes:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -2185,7 +2185,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: "\tctx "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: PTR_ALIGN
@@ -2317,7 +2317,7 @@
   scopes:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aegis128l_aesni_ctx
@@ -2648,7 +2648,7 @@
   scopes:
     - keyword.operator
 - source: 'tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_reqtfm
@@ -2676,7 +2676,7 @@
   scopes:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aegis128l_aesni_ctx
@@ -2994,14 +2994,14 @@
   scopes:
     - storage.type.struct
 - source: ' aegis_crypt_ops OPS '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t.skcipher_walk_init "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' skcipher_walk_aead_encrypt'
@@ -3009,7 +3009,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.crypt_blocks "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_enc'
@@ -3017,7 +3017,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.crypt_tail "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_enc_tail'
@@ -3038,7 +3038,7 @@
   scopes:
     - keyword.operator
 - source: 'tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_reqtfm
@@ -3062,7 +3062,7 @@
   scopes:
     - storage.type.struct
 - source: ' aegis_block tag '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
@@ -3081,7 +3081,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' authsize '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_authsize
@@ -3108,7 +3108,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' cryptlen '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: req
@@ -3281,7 +3281,7 @@
   scopes:
     - storage.type.struct
 - source: ' aegis_block zeros '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
@@ -3303,14 +3303,14 @@
   scopes:
     - storage.type.struct
 - source: ' aegis_crypt_ops OPS '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t.skcipher_walk_init "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' skcipher_walk_aead_decrypt'
@@ -3318,7 +3318,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.crypt_blocks "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_dec'
@@ -3326,7 +3326,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.crypt_tail "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_dec_tail'
@@ -3347,7 +3347,7 @@
   scopes:
     - keyword.operator
 - source: 'tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_reqtfm
@@ -3381,7 +3381,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' authsize '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_authsize
@@ -3408,7 +3408,7 @@
   scopesEnd:
     - storage.type.built-in.primitive
 - source: ' cryptlen '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: req
@@ -3750,7 +3750,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -3778,7 +3778,7 @@
   scopes:
     - keyword.operator
 - source: 'cryptd_tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '*'
@@ -3891,7 +3891,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -3919,7 +3919,7 @@
   scopes:
     - keyword.operator
 - source: 'cryptd_tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '*'
@@ -4013,7 +4013,7 @@
   scopes:
     - keyword.operator
 - source: 'aead '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_reqtfm
@@ -4044,7 +4044,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -4072,7 +4072,7 @@
   scopes:
     - keyword.operator
 - source: 'cryptd_tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '*'
@@ -4083,7 +4083,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: "\taead "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '&'
@@ -4177,7 +4177,7 @@
   scopesEnd:
     - meta.parens.block
 - source: "\t\taead "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: cryptd_aead_child
@@ -4287,7 +4287,7 @@
   scopes:
     - keyword.operator
 - source: 'aead '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_reqtfm
@@ -4318,7 +4318,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -4346,7 +4346,7 @@
   scopes:
     - keyword.operator
 - source: 'cryptd_tfm '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '*'
@@ -4357,7 +4357,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: "\taead "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '&'
@@ -4451,7 +4451,7 @@
   scopesEnd:
     - meta.parens.block
 - source: "\t\taead "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: cryptd_aead_child
@@ -4575,7 +4575,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -4596,7 +4596,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: "\tcryptd_tfm "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: cryptd_alloc_aead
@@ -4685,7 +4685,7 @@
   scopes:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_tfm'
@@ -4793,7 +4793,7 @@
   scopesEnd:
     - keyword.operator
 - source: 'ctx '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: crypto_aead_ctx
@@ -4848,7 +4848,7 @@
 - source: '[]'
   scopes:
     - storage.modifier.array.bracket.square
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
@@ -4859,7 +4859,7 @@
   scopesEnd:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t.setkey "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_setkey'
@@ -4867,7 +4867,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.setauthsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_setauthsize'
@@ -4875,7 +4875,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.encrypt "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_encrypt'
@@ -4883,7 +4883,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.decrypt "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_decrypt'
@@ -4891,7 +4891,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.init "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_init_tfm'
@@ -4899,7 +4899,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.exit "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' crypto_aegis128l_aesni_exit_tfm'
@@ -4907,7 +4907,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.ivsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_NONCE_SIZE'
@@ -4915,7 +4915,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.maxauthsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_MAX_AUTH_SIZE'
@@ -4923,7 +4923,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.chunksize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_BLOCK_SIZE'
@@ -4931,14 +4931,14 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.base "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t\t.cra_flags "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' CRYPTO_ALG_INTERNAL'
@@ -4946,7 +4946,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_blocksize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'
@@ -4956,7 +4956,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_ctxsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: sizeof
@@ -5000,7 +5000,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_alignmask "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -5010,7 +5010,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_name "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'
@@ -5028,7 +5028,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_driver_name "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'
@@ -5046,7 +5046,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_module "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' THIS_MODULE'
@@ -5066,7 +5066,7 @@
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t.setkey "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_setkey'
@@ -5074,7 +5074,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.setauthsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_setauthsize'
@@ -5082,7 +5082,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.encrypt "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_encrypt'
@@ -5090,7 +5090,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.decrypt "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_decrypt'
@@ -5098,7 +5098,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.init "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_init_tfm'
@@ -5106,7 +5106,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.exit "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cryptd_aegis128l_aesni_exit_tfm'
@@ -5114,7 +5114,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.ivsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_NONCE_SIZE'
@@ -5122,7 +5122,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.maxauthsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_MAX_AUTH_SIZE'
@@ -5130,7 +5130,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.chunksize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' AEGIS128L_BLOCK_SIZE'
@@ -5138,14 +5138,14 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t.base "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '{'
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: "\t\t\t.cra_flags "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' CRYPTO_ALG_ASYNC'
@@ -5153,7 +5153,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_blocksize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'
@@ -5163,7 +5163,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_ctxsize "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: sizeof
@@ -5190,7 +5190,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_alignmask "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -5200,7 +5200,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_priority "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '400'
@@ -5210,7 +5210,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_name "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'
@@ -5228,7 +5228,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_driver_name "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'
@@ -5246,7 +5246,7 @@
   scopes:
     - punctuation.separator.delimiter
 - source: "\t\t\t.cra_module "
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' THIS_MODULE'
@@ -6578,7 +6578,7 @@
   scopes:
     - support.type.posix-reserved
 - source: ' cpnt '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -6596,7 +6596,7 @@
   scopes:
     - punctuation.section.parens.begin.bracket.round
 - source: 'auto i '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' tlen'
@@ -6638,7 +6638,7 @@
 - source: '[]'
   scopes:
     - storage.modifier.array.bracket.square
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '"'
@@ -6656,7 +6656,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '                auto dptr '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' std::char_traits'
@@ -6765,7 +6765,7 @@
   scopes:
     - punctuation.section.block.end.bracket.curly
 - source: '                auto dvalue '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' static_cast'
@@ -6813,7 +6813,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '                cpnt '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' cpnt '
@@ -6842,7 +6842,7 @@
   scopes:
     - punctuation.section.parens.begin.bracket.round
 - source: 'next '
-- source: ==
+- source: '=='
   scopes:
     - keyword.operator.comparison
 - source: ''''
@@ -7070,7 +7070,7 @@
   scopesEnd:
     - comment.line.double-slash
 - source: '            auto encode_one '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '['

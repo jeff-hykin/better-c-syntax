@@ -1,3 +1,14 @@
+- source: /*
+  scopesBegin:
+    - comment.block
+  scopes:
+    - punctuation.definition.comment.begin
+- source: ' ctest '
+- source: '*/'
+  scopes:
+    - punctuation.definition.comment.end
+  scopesEnd:
+    - comment.block
 - source: void
   scopes:
     - storage.type.built-in.primitive

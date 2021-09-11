@@ -170,7 +170,7 @@
   scopes:
     - punctuation.section.parameters.begin.bracket.round
 - source: 'Type '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' value'
@@ -196,7 +196,7 @@
   scopes:
     - punctuation.section.parameters.begin.bracket.round
 - source: 'Type foo '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' value'
@@ -244,7 +244,7 @@
 - source: )
   scopes:
     - punctuation.section.parens.end.bracket.round
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' value'
@@ -295,7 +295,7 @@
 - source: )
   scopes:
     - punctuation.section.parens.end.bracket.round
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: ' value'

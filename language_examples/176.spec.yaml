@@ -69,7 +69,7 @@
 - source: UserFlashAddess
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'
@@ -103,7 +103,7 @@
 - source: UserFlashAddess
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'

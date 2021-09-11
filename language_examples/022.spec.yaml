@@ -86,7 +86,7 @@
   scopes:
     - punctuation.section.block.begin.bracket.curly
 - source: '    t '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: time
@@ -109,7 +109,7 @@
   scopes:
     - punctuation.terminator.statement
 - source: '    tmp '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: localtime

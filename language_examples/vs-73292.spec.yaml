@@ -25,7 +25,7 @@
   scopes:
     - storage.type.built-in.primitive
 - source: ' test_enum '
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '1'

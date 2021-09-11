@@ -15,7 +15,7 @@
 - source: ' comment'
   scopesEnd:
     - comment.line.double-slash
-- source: "\tdefinition "
+- source: "\tdefinition"
 - source: /*
   scopesBegin:
     - comment.block
@@ -35,7 +35,7 @@
 - source: ','
   scopes:
     - punctuation.separator.delimiter
-- source: ' definition2 '
+- source: ' definition2'
 - source: //
   scopesBegin:
     - comment.line.double-slash

@@ -33,7 +33,7 @@
 - source: im_a_member
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -62,7 +62,7 @@
 - source: integer_member
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -91,7 +91,7 @@
 - source: size_t_holder
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: '0'
@@ -120,7 +120,7 @@
 - source: intra_thread
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: thread
@@ -159,7 +159,7 @@
 - source: long_array
   scopes:
     - variable.other.member
-- source: =
+- source: '='
   scopes:
     - keyword.operator.assignment
 - source: malloc

@@ -45,7 +45,7 @@
 - source: t_low_fan
   scopes:
     - variable.other.member
-- source: ==
+- source: '=='
   scopes:
     - keyword.operator.comparison
 - source: '1'
