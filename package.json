@@ -1,7 +1,7 @@
 {
     "name": "better-c-syntax",
     "displayName": "Better C Syntax",
-    "description": "A placeholder (which will later be the bleeding edge of C syntax)",
+    "description": "The bleeding edge of C syntax",
     "icon": "icon.png",
     "version": "1.13.1",
     "scripts": {
