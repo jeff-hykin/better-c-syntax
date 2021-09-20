@@ -9,7 +9,7 @@ require_relative './tokens.rb'
 # create grammar!
 # 
 # 
-grammar = Grammar.fromTmLanguage(__dir__+"/c.frozen.tmLanguage.json")
+grammar = Grammar.fromTmLanguage(__dir__+"/modified.tmLanguage.json")
 
 # 
 #

@@ -3,7 +3,7 @@
     "displayName": "Better C Syntax",
     "description": "The bleeding edge of C syntax",
     "icon": "icon.png",
-    "version": "1.13.1",
+    "version": "1.13.2",
     "scripts": {
         "test": ""
     },
