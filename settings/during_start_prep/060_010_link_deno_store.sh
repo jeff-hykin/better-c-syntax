@@ -1,21 +1,29 @@
-# connect the tealdeer cache to prevent wasted duplicates
+# connect the deno cache to prevent wasted duplicates
 
 if ! [ "$HOME" = "$FORNIX_HOME" ]
 then
+    __temp_var__real_home_cache_dir=""
+    __temp_var__project_home_cache_dir=""
+    
     # 
     # MacOS
     # 
     if [ "$(uname)" = "Darwin" ] 
     then
-        __temp_var__main="$HOME/Library/Caches/tealdeer"
-        __temp_var__project="$FORNIX_HOME/Library/Caches/tealdeer"
+        __temp_var__real_home_cache_dir="$HOME/Library/Caches"
+        __temp_var__project_home_cache_dir="$FORNIX_HOME/Library/Caches"
     # 
     # Linux
     # 
     else
-        __temp_var__main="$HOME/.cache/tldr"
-        __temp_var__project="$FORNIX_HOME/.cache/tldr"
+        __temp_var__real_home_cache_dir="$HOME/.cache"
+        __temp_var__project_home_cache_dir="$FORNIX_HOME/.cache"
     fi
+    
+    # folder we want to connect
+    __temp_var__what_to_connect="deno/deps"
+    __temp_var__main="$__temp_var__real_home_cache_dir/$__temp_var__what_to_connect"
+    __temp_var__project="$__temp_var__project_home_cache_dir/$__temp_var__what_to_connect"
     
     # make the real home folder if it doesn't exist
     if ! [ -d "$__temp_var__main" ]
@@ -36,4 +44,7 @@ then
     # clean up
     unset __temp_var__project
     unset __temp_var__main
+    unset __temp_var__project_home_cache_dir
+    unset __temp_var__real_home_cache_dir
+    unset __temp_var__what_to_connect
 fi
